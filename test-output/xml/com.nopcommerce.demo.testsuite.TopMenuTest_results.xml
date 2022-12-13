@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Sanity Test"
+           tests="7"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="6.239">
+  <properties />
+  
+  
+            <testcase name="userShouldNavigateToElectronicsPageSuccessfully" time="0.519" classname="com.nopcommerce.demo.testsuite.TopMenuTest" />
+                <testcase name="userShouldNavigateToGiftCardsPageSuccessfull" time="1.115" classname="com.nopcommerce.demo.testsuite.TopMenuTest" />
+                <testcase name="userShouldNavigateToJewelryPageSuccessfully" time="1.091" classname="com.nopcommerce.demo.testsuite.TopMenuTest" />
+                <testcase name="userShouldNavigateToDigitalDownloadsPageSuccessfull" time="1.213" classname="com.nopcommerce.demo.testsuite.TopMenuTest" />
+                <testcase name="userShouldNavigateToBooksPageSuccessfully" time="1.151" classname="com.nopcommerce.demo.testsuite.TopMenuTest" />
+                <testcase name="userShouldNavigateToComputerPageSuccessfully" time="0.586" classname="com.nopcommerce.demo.testsuite.TopMenuTest" />
+                <testcase name="userShouldNavigateToApparelPageSuccessfull" time="0.564" classname="com.nopcommerce.demo.testsuite.TopMenuTest" />
+      
+</testsuite>

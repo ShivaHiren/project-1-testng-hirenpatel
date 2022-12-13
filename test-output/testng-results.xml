@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="9" total="12" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Sanity Suite" duration-ms="14306" started-at="2022-12-11T19:21:31 GMT" finished-at="2022-12-11T19:21:45 GMT">
+    <groups>
+      <group name="regression">
+        <method signature="LoginTest.verifyUserShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@305fd85d]" name="verifyUserShouldNavigateToLoginPageSuccessfully" class="com.nopcommerce.demo.testsuite.LoginTest"/>
+        <method signature="RegisterTest.UserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterTest@27808f31]" name="UserShouldNavigateToRegisterPageSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterTest"/>
+        <method signature="TopMenuTest.userShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@436e852b]" name="userShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.TopMenuTest"/>
+      </group> <!-- regression -->
+      <group name="sanity">
+        <method signature="LoginTest.verifyUserShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@305fd85d]" name="verifyUserShouldNavigateToLoginPageSuccessfully" class="com.nopcommerce.demo.testsuite.LoginTest"/>
+        <method signature="RegisterTest.UserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterTest@27808f31]" name="UserShouldNavigateToRegisterPageSuccessfully" class="com.nopcommerce.demo.testsuite.RegisterTest"/>
+        <method signature="TopMenuTest.userShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@436e852b]" name="userShouldNavigateToComputerPageSuccessfully" class="com.nopcommerce.demo.testsuite.TopMenuTest"/>
+      </group> <!-- sanity -->
+    </groups>
+    <test name="Sanity Test" duration-ms="14306" started-at="2022-12-11T19:21:31 GMT" finished-at="2022-12-11T19:21:45 GMT">
+      <class name="com.nopcommerce.demo.testsuite.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@305fd85d]" name="setUp" is-config="true" duration-ms="3952" started-at="2022-12-11T19:21:31 GMT" finished-at="2022-12-11T19:21:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@305fd85d]" name="inIt" is-config="true" duration-ms="55" started-at="2022-12-11T19:21:35 GMT" finished-at="2022-12-11T19:21:35 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="verifyUserShouldNavigateToLoginPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@305fd85d]" name="verifyUserShouldNavigateToLoginPageSuccessfully" duration-ms="1047" started-at="2022-12-11T19:21:35 GMT" finished-at="2022-12-11T19:21:36 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyUserShouldNavigateToLoginPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.LoginTest@305fd85d]" name="tearDown" is-config="true" duration-ms="718" started-at="2022-12-11T19:21:36 GMT" finished-at="2022-12-11T19:21:37 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.LoginTest -->
+      <class name="com.nopcommerce.demo.testsuite.TopMenuTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@436e852b]" name="setUp" is-config="true" duration-ms="2492" started-at="2022-12-11T19:21:41 GMT" finished-at="2022-12-11T19:21:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@436e852b]" name="inIt" is-config="true" duration-ms="1" started-at="2022-12-11T19:21:43 GMT" finished-at="2022-12-11T19:21:43 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="userShouldNavigateToComputerPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@436e852b]" name="userShouldNavigateToComputerPageSuccessfully" duration-ms="1019" started-at="2022-12-11T19:21:43 GMT" finished-at="2022-12-11T19:21:44 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userShouldNavigateToComputerPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.TopMenuTest@436e852b]" name="tearDown" is-config="true" duration-ms="700" started-at="2022-12-11T19:21:44 GMT" finished-at="2022-12-11T19:21:45 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.TopMenuTest -->
+      <class name="com.nopcommerce.demo.testsuite.RegisterTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterTest@27808f31]" name="setUp" is-config="true" duration-ms="2328" started-at="2022-12-11T19:21:37 GMT" finished-at="2022-12-11T19:21:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="inIt()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterTest@27808f31]" name="inIt" is-config="true" duration-ms="5" started-at="2022-12-11T19:21:39 GMT" finished-at="2022-12-11T19:21:39 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- inIt -->
+        <test-method status="PASS" signature="UserShouldNavigateToRegisterPageSuccessfully()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterTest@27808f31]" name="UserShouldNavigateToRegisterPageSuccessfully" duration-ms="1010" started-at="2022-12-11T19:21:39 GMT" finished-at="2022-12-11T19:21:40 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- UserShouldNavigateToRegisterPageSuccessfully -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.nopcommerce.demo.testsuite.RegisterTest@27808f31]" name="tearDown" is-config="true" duration-ms="670" started-at="2022-12-11T19:21:40 GMT" finished-at="2022-12-11T19:21:41 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.nopcommerce.demo.testsuite.RegisterTest -->
+    </test> <!-- Sanity Test -->
+  </suite> <!-- Sanity Suite -->
+</testng-results>
